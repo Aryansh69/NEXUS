@@ -1,9 +1,5 @@
 import requests
-
-data = {
-    "title": "Learning APIs",
-    "completed": False
-}
+data = {"title": "Learning APIs","completed": False}
 
 response = requests.post("https://jsonplaceholder.typicode.com/todos",json=data)
 
